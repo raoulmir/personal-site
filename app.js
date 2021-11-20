@@ -21,4 +21,6 @@ const root = {
 
 const app = Vue.createApp(root)
 app.component('navigation', Navigation)
+app.component('window', Window)
+
 const vm = app.mount('#app')
