@@ -1,3 +1,4 @@
+import { Navigation } from '/components/navigation.js'
 const root = {
     provide: {
       files: files
