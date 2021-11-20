@@ -14,3 +14,6 @@ const root = {
       } 
     }
   }
+
+const app = Vue.createApp(root)
+const vm = app.mount('#app')
