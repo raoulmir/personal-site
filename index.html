@@ -11,6 +11,17 @@
           <navigation @set-route="setRoute($event)"></navigation>
         </nav>
       </div>
+      <div class="content">
+        <div v-if="currentRoute === '/'">
+          {{ message }}
+        </div>
+        <div v-if="currentRoute === '/about-me'">
+          <window file-name="about-me"></window>
+        </div>
+        <div v-if="currentRoute === '/contact'">
+          <window file-name="contact"></window>
+        </div>
+      </div>
     </div>  
 </body>
 <script type="module" src="./app.js"></script>
