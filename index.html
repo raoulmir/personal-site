@@ -12,8 +12,8 @@
         </nav>
       </div>
       <div class="content">
-        <div v-if="currentRoute === '/'">
-          {{ message }}
+        <div class="window-container" v-if="currentRoute === '/'">
+          <window file-name="intro" content-type="mixed"></window>
         </div>
         <div class="window-container" v-if="currentRoute === '/about-me'">
           <window file-name="about-me" content-type="text"></window>
