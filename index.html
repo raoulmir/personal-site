@@ -15,11 +15,11 @@
         <div v-if="currentRoute === '/'">
           {{ message }}
         </div>
-        <div v-if="currentRoute === '/about-me'">
-          <window file-name="about-me"></window>
+        <div class="window-container" v-if="currentRoute === '/about-me'">
+          <window file-name="about-me" content-type="text"></window>
         </div>
-        <div v-if="currentRoute === '/contact'">
-          <window file-name="contact"></window>
+        <div class="window-container" v-if="currentRoute === '/contact'">
+          <window file-name="contact" content-type="text"></window>
         </div>
       </div>
     </div>  

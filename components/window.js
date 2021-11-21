@@ -10,5 +10,13 @@ export const Window = {
         let camelize = this.fileName.replace(/-./g, x=>x[1].toUpperCase())
         this.content = this.files[camelize].content
     },
-    template: `<div v-html="content"></div>`
+    template: `
+    <div :class="'window ' + contentType">
+        <div class="title-bar">
+            <div class="inner-content">
+                <span class="label">{{ fileName }}</span>
+            </div>
+        </div>
+        <div class="content" v-html="content"></div>
+    </div>`
 }
