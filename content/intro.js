@@ -10,7 +10,7 @@ export default {
         <div style="padding: 2rem">
             <h1 style="margin-bottom: 0;">Raoul-Sebastian Miron</h1>
             <span style="font-size: 1rem;">v1.0.0</span></br>
-            <span>Occupation: Software Engineer</span><br>
+            <span>Occupation: Senior Software Engineer</span><br>
             <span>Nationality: Romanian</span><br><br>
             <span>Skills:</span>
             <ul>
