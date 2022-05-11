@@ -1,7 +1,7 @@
 export default {
     content: `
     <div style="
-        background: url(https://media-exp1.licdn.com/dms/image/C4D03AQGRduix1hw5Eg/profile-displayphoto-shrink_800_800/0/1636111095482?e=1643241600&v=beta&t=Yd28EWv3RWvxxhpYE-ODfris7w6kmBEBsgSomY_lC30)">
+        background: url(https://lh3.googleusercontent.com/lBM_1_eWJWOk_RTD05zcyWY2K5A-mz2LwBBgFGRAjpTQbcmZEwIpn-oheSPKeQS3IIh7Yxvs8lONkbVbUUOm=w1920-h890)">
     </div>
     `
 }
