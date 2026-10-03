@@ -5,11 +5,12 @@ export const Window = {
             content: null
         }
     },
-    props: ['fileName','contentType'],
+    props: ['fileName', 'contentType'],
     mounted() {
-        let camelize = this.fileName.replace(/-./g, x=>x[1].toUpperCase())
-        this.content = this.files[camelize].content
-        this.windowLabel = this.files[camelize]?.fileName
+        let camelize = this.fileName.replace(/-./g, x => x[1].toUpperCase())
+        const fileModule = this.files[camelize]
+        this.content = fileModule ? fileModule.content : ''
+        this.windowLabel = fileModule ? fileModule.fileName : ''
     },
     template: `
     <div :class="'window ' + contentType">
@@ -19,5 +20,6 @@ export const Window = {
             </div>
         </div>
         <div class="content" v-html="content"></div>
-    </div>`
+    </div>
+    `
 }

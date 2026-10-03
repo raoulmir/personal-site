@@ -1,6 +1,6 @@
-import { Navigation } from '/components/navigation.js'
-import { Window } from '/components/window.js'
-import * as files from '../content/index.js'
+import { Navigation } from './components/navigation.js'
+import { Window } from './components/window.js'
+import * as files from './content/index.js'
 
 const root = {
     provide: {
@@ -15,7 +15,7 @@ const root = {
     methods: {
       setRoute(route) {
         this.currentRoute = route
-      } 
+      }
     }
   }
 

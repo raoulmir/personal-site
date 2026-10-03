@@ -7,8 +7,7 @@ nav {
     top: -61px;
     margin-left: -1rem;
     background-color: white;
-    padding: 0.5rem; 
-    border-bottom: 2px solid black;
+    padding: 0.5rem;
 }
 
 a:hover {
@@ -35,5 +34,4 @@ nav a {
     color: black;
     padding: 0.5rem;
     text-decoration: none;
-
 }
